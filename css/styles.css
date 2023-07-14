@@ -1,11 +1,24 @@
 :root {
   --navyblue: #2e2f42;
   --slate: #434455;
+  --iris: #4d5ae5;
 }
 body {
   font-family: "Roboto", sans-serif;
-
+}
+.link {
   text-decoration: none;
+}
+/* Header */
+.link-logo {
+  color: var(--navyblue);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
 }
 .header-link-link {
   color: var(--navyblue);
