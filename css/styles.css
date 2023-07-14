@@ -15,6 +15,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white);
+  color: #434455;
 }
 /*---*/
 .link {
@@ -26,31 +27,31 @@ body {
 /* Header start */
 .main-logo {
   color: var(--iris);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .link-logo {
   color: var(--navyblue);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .link-whitelogo {
   color: var(--cloud);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
