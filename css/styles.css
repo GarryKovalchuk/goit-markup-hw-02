@@ -2,11 +2,21 @@
   --navyblue: #2e2f42;
   --slate: #434455;
   --iris: #4d5ae5;
-  --white: #fff;
+  --ocean: #404bbf;
+  --green: #31d0aa;
+  --lightslate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navyblue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
 }
 body {
   font-family: "Roboto", sans-serif;
+  background-color: var(--white);
 }
+/*---*/
 .link {
   text-decoration: none;
 }
@@ -20,12 +30,22 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .link-logo {
   color: var(--navyblue);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.link-whitelogo {
+  color: var(--cloud);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -41,7 +61,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address {
+.address-list {
   color: var(--slate);
   font-size: 16px;
   font-style: normal;
@@ -58,16 +78,71 @@ body {
 .sectoin-main-title {
   color: var(--white);
   text-align: center;
-  font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
+.butt-btn {
+  color: var(--white);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.section-one-stitle {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-two-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.section-three-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.section-three {
+  background: var(--cloud);
+}
+.section-three-stitle {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+/* Main end */
+
+/* footer start */
+.footer {
+  background: var(--navyblue);
+}
+.footer-text {
+  color: var(--cloud);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* footer end */
 .port-title {
   color: var(--navyblue);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -75,7 +150,6 @@ body {
 .text {
   color: var(--slate);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
