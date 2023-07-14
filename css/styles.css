@@ -66,7 +66,8 @@ body {
 .header-link-link:focus {
   color: var(--ocean);
 }
-.address-list {
+.address-list,
+.address {
   color: var(--slate);
   font-size: 16px;
   font-style: normal;
@@ -109,6 +110,7 @@ body {
 }
 .section-one-stitle {
   color: var(--navyblue);
+  background: var(--white);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -116,6 +118,7 @@ body {
 }
 .section-two-title {
   color: var(--navyblue);
+  background: var(--white);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -162,6 +165,7 @@ body {
 .butt {
   color: var(--iris);
   background: var(--cloud);
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   text-align: center;
   font-size: 16px;
@@ -173,6 +177,7 @@ body {
 .butt:focus {
   color: var(--white);
   background: var(--ocean);
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   text-align: center;
   font-size: 16px;
