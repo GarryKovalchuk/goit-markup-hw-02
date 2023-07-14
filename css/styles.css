@@ -64,7 +64,7 @@ body {
 }
 .header-link-link:hover,
 .header-link-link:focus {
-  color: var(--iris);
+  color: var(--ocean);
 }
 .address-list {
   color: var(--slate);
@@ -76,7 +76,12 @@ body {
 }
 .address-list:hover,
 .address-list:focus {
-  color: var(--iris);
+  color: var(--ocean);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* Header and */
 
