@@ -10,6 +10,16 @@ body {
   text-decoration: none;
 }
 /* Header */
+.main-logo {
+  color: var(--iris);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.03;
+  text-transform: uppercase;
+}
 .link-logo {
   color: var(--navyblue);
   font-family: Raleway;
