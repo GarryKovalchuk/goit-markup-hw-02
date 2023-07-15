@@ -53,15 +53,15 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header-net {
+.header-link {
   color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-net:hover,
-.header-net:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--ocean);
 }
 .address-list,
