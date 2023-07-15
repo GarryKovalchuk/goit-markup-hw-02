@@ -138,7 +138,6 @@ body {
 }
 .section-three-title {
   color: var(--navyblue);
-  background: var(--white);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -154,6 +153,9 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+.section-three-img {
+  background: var(--white);
 }
 /* Main end */
 
