@@ -108,6 +108,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+.butt-btn:hover,
+.butt-btn:focus {
+  background: var(--ocean);
+}
 .section-one-stitle {
   color: var(--navyblue);
   background: var(--white);
@@ -126,6 +130,9 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.section-three {
+  background: var(--white);
+}
 .section-three-title {
   color: var(--navyblue);
   text-align: center;
@@ -135,9 +142,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.section-three {
-  background: var(--cloud);
-}
+
 .section-three-stitle {
   color: var(--navyblue);
   font-size: 20px;
@@ -185,7 +190,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.port-title {
+.section-port-title {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
