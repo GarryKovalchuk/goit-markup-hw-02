@@ -131,7 +131,7 @@ body {
   text-transform: capitalize;
 }
 .section-three {
-  background: var(--white);
+  background: var(--cloud);
 }
 .section-three-title {
   color: var(--navyblue);
@@ -145,6 +145,7 @@ body {
 
 .section-three-stitle {
   color: var(--navyblue);
+  background: var(--white);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
