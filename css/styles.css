@@ -138,6 +138,7 @@ body {
 }
 .section-three-title {
   color: var(--navyblue);
+  background: var(--white);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
