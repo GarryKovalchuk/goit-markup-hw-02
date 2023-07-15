@@ -67,6 +67,7 @@ body {
 .address-list,
 .address {
   color: var(--slate);
+  background-color: var(--white);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -76,6 +77,7 @@ body {
 .address-list:hover,
 .address-list:focus {
   color: var(--ocean);
+  background-color: var(--white);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
