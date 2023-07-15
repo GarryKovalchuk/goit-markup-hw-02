@@ -21,9 +21,7 @@ body {
 .link {
   text-decoration: none;
 }
-.list {
-  list-style: none;
-}
+
 /* Header start */
 .main-logo {
   color: var(--iris);
@@ -119,6 +117,9 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+.list {
+  list-style: none;
 }
 .section-two-title {
   color: var(--navyblue);
